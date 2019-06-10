@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "lite-server",
     "build": "webpack --watch",
-    "start": "npm-run-all --parallel build serve"
+    "start": "npm-run-all --parallel tsc build serve"
   },
   "repository": {
     "type": "git",

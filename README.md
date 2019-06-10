@@ -5,4 +5,4 @@ Resource: <https://www.udemy.com/design-patterns-in-typescript/
 * (updating)
 
 ## References
-* (updating)
+* TS debugging in VScode https://code.visualstudio.com/docs/typescript/typescript-debugging
