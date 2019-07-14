@@ -2,11 +2,11 @@
   "name": "typescript-design-patterns",
   "version": "1.0.0",
   "description": "Resource: <https://www.udemy.com/design-patterns-in-typescript/",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "serve": "lite-server",
     "build": "webpack --watch",
-    "start": "npm-run-all --parallel tsc build serve"
+    "start": "npm-run-all --parallel build serve"
   },
   "repository": {
     "type": "git",
