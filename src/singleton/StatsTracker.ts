@@ -28,5 +28,3 @@ class StatsTracker {
 }
 
 export { StatsTracker };
-
-// StatsTracker.instance.print(console.log);
