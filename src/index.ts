@@ -1,6 +1,9 @@
-import { diDemo } from "./dependency-injection/di-demo";
+import { diDecoratorDemo } from "./dependency-injection/di-demo-decorator";
 
-diDemo();
+diDecoratorDemo();
+
+// import { diDemo } from "./dependency-injection/di-demo";
+// diDemo();
 
 // import { objectPoolDemo } from "./object-pool/object-pool-demo";
 // objectPoolDemo();
