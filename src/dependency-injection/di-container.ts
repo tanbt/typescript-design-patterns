@@ -17,11 +17,11 @@ export class DiContainer {
    * Construct a new instance and register it to DI container
    *
    * @param name
-   *          name of the new object to be initialized
+   *          name of the interface of the new object
    * @param dependencies
    *          list of dependent object names
    * @param implementation
-   *          function to construct the new instance
+   *          the class of the new object
    */
   register(name: string, dependencies: string[], implementation: any) {
     if(this._dependencies[name]) {
@@ -32,11 +32,11 @@ export class DiContainer {
 
   }
 
-  resolve(name: string): Object {
+  resolve<T>(name: string): T {
     if(!this._dependencies[name]) {
       throw new Error('Unresolved dependency: ' + name);
     }
-    return this._dependencies[name];
+    return this._dependencies[name] as T;
   }
 
   /**

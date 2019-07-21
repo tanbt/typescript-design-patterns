@@ -1,6 +1,9 @@
-import { objectPoolDemo } from "./object-pool/object-pool-demo";
+import { diDemo } from "./dependency-injection/di-demo";
 
-objectPoolDemo();
+diDemo();
+
+// import { objectPoolDemo } from "./object-pool/object-pool-demo";
+// objectPoolDemo();
 
 // import { factoryDemo } from "./factory/factory-demo";
 // factoryDemo();
