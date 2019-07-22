@@ -10,7 +10,7 @@
       "name": "Start TS",
       "program": "${workspaceFolder}\\src\\index.ts",
       "outFiles": [
-        "${workspaceFolder}/dist/bundle.js"
+        "${workspaceFolder}/dist/**/*.js"
       ]
     }
   ]

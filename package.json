@@ -2,7 +2,7 @@
   "name": "typescript-design-patterns",
   "version": "1.0.0",
   "description": "Resource: <https://www.udemy.com/design-patterns-in-typescript/",
-  "main": "index.ts",
+  "main": ".src/index.ts",
   "scripts": {
     "serve": "lite-server",
     "build": "webpack --watch",
