@@ -1,6 +1,8 @@
-import { diDecoratorDemo } from "./dependency-injection/di-demo-decorator";
+import { decoratorDemo } from "./decorator/decorator-demo";
+decoratorDemo();
 
-diDecoratorDemo();
+// import { diDecoratorDemo } from "./dependency-injection/di-demo-decorator";
+// diDecoratorDemo();
 
 // import { diDemo } from "./dependency-injection/di-demo";
 // diDemo();
