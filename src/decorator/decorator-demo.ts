@@ -2,6 +2,7 @@ import { DefaultComputer } from "./DefaultComputer";
 import { GamingComputer } from "./GamingComputer";
 import { OfficeComputer } from "./OfficeComputer";
 import { ServerComputer } from "./ServerComputer";
+import { NewFeatureComputer } from "./NewFeatureComputer";
 
 export const decoratorDemo = () => {
 
@@ -13,9 +14,13 @@ export const decoratorDemo = () => {
   officeComp.print();
   officeComp.connectNetwork();
 
-  console.log("\n");
+  console.log("------------------------");
   const serverComp = new ServerComputer(officeComp);
   serverComp.display();
   serverComp.print();
   serverComp.connectNetwork();
+
+  console.log("\n");
+  const newComp = new NewFeatureComputer(serverComp);
+  newComp.showOff();
 }
