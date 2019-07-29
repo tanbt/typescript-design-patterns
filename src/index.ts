@@ -1,5 +1,8 @@
-import { adapterDemo } from "./adapter/adapter-demo";
-adapterDemo();
+import { compositeDemo } from "./composite/composite-demo";
+compositeDemo();
+
+// import { adapterDemo } from "./adapter/adapter-demo";
+// adapterDemo();
 
 // import { decoratorDemo } from "./decorator/decorator-demo";
 // decoratorDemo();
