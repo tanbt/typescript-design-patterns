@@ -1,5 +1,8 @@
-import { compositeDemo } from "./composite/composite-demo";
-compositeDemo();
+import { flyWeightDemo } from "./flyweight/flyweight-demo";
+flyWeightDemo();
+
+// import { compositeDemo } from "./composite/composite-demo";
+// compositeDemo();
 
 // import { adapterDemo } from "./adapter/adapter-demo";
 // adapterDemo();
