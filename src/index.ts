@@ -1,5 +1,7 @@
-import { flyWeightDemo } from "./flyweight/flyweight-demo";
-flyWeightDemo();
+import { proxyDemo } from "./proxy/proxy-demo";
+proxyDemo();
+// import { flyWeightDemo } from "./flyweight/flyweight-demo";
+// flyWeightDemo();
 
 // import { compositeDemo } from "./composite/composite-demo";
 // compositeDemo();
