@@ -1,5 +1,9 @@
-import { proxyDemo } from "./proxy/proxy-demo";
-proxyDemo();
+import { resChainDemo } from "./chain-of-responsibility/responsibility-chain-demo";
+resChainDemo();
+
+// import { proxyDemo } from "./proxy/proxy-demo";
+// proxyDemo();
+
 // import { flyWeightDemo } from "./flyweight/flyweight-demo";
 // flyWeightDemo();
 

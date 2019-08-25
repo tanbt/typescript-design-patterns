@@ -5,8 +5,8 @@ Resource: <https://www.udemy.com/design-patterns-in-typescript/
 * npm i
 
 ## Debugging
-In VSCode, set a breakpoint in ts file, press F5.
-Make sure webpack build is running already (by `npm start`);
+* Make sure webpack build is running already (by `npm start` or `npm run build`);
+* In VSCode, set a breakpoint in ts file, press F5.
 
 Debugging in browser is also available.
 
