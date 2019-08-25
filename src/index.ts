@@ -1,5 +1,8 @@
-import { iteratorDemo } from "./iterator/iterator-demo";
-iteratorDemo();
+import { mediatorDemo } from "./mediator/mediator-demo";
+mediatorDemo();
+
+// import { iteratorDemo } from "./iterator/iterator-demo";
+// iteratorDemo();
 
 // import { commandDemo } from "./command/command-demo";
 // commandDemo();
