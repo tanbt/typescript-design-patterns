@@ -1,5 +1,8 @@
-import { resChainDemo } from "./chain-of-responsibility/responsibility-chain-demo";
-resChainDemo();
+import { commandDemo } from "./command/command-demo";
+commandDemo();
+
+// import { resChainDemo } from "./chain-of-responsibility/responsibility-chain-demo";
+// resChainDemo();
 
 // import { proxyDemo } from "./proxy/proxy-demo";
 // proxyDemo();
