@@ -1,5 +1,8 @@
-import { commandDemo } from "./command/command-demo";
-commandDemo();
+import { iteratorDemo } from "./iterator/iterator-demo";
+iteratorDemo();
+
+// import { commandDemo } from "./command/command-demo";
+// commandDemo();
 
 // import { resChainDemo } from "./chain-of-responsibility/responsibility-chain-demo";
 // resChainDemo();
