@@ -1,5 +1,9 @@
-import { observerDemo } from "./observer/observer-demo";
-observerDemo();
+import { stateDemo } from "./state/state-demo";
+stateDemo();
+
+// import { observerDemo } from "./observer/observer-demo";
+// observerDemo();
+
 // import { mementoDemo } from "./memento/mementor-demo";
 // mementoDemo();
 
