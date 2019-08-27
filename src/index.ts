@@ -1,5 +1,7 @@
-import { mementoDemo } from "./memento/mementor-demo";
-mementoDemo();
+import { observerDemo } from "./observer/observer-demo";
+observerDemo();
+// import { mementoDemo } from "./memento/mementor-demo";
+// mementoDemo();
 
 // import { mediatorDemo } from "./mediator/mediator-demo";
 // mediatorDemo();
