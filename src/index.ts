@@ -1,5 +1,8 @@
-import { stateDemo } from "./state/state-demo";
-stateDemo();
+import { strategyDemo } from "./strategy/strategyDemo";
+strategyDemo();
+
+// import { stateDemo } from "./state/state-demo";
+// stateDemo();
 
 // import { observerDemo } from "./observer/observer-demo";
 // observerDemo();
