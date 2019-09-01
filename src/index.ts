@@ -1,5 +1,8 @@
-import { templateMethodDemo } from "./template-method/templateMethodDemo";
-templateMethodDemo();
+import { visitorDemo } from "./visitor/visitorDemo";
+visitorDemo();
+
+// import { templateMethodDemo } from "./template-method/templateMethodDemo";
+// templateMethodDemo();
 
 // import { strategyDemo } from "./strategy/strategyDemo";
 // strategyDemo();
