@@ -1,5 +1,8 @@
-import { strategyDemo } from "./strategy/strategyDemo";
-strategyDemo();
+import { templateMethodDemo } from "./template-method/templateMethodDemo";
+templateMethodDemo();
+
+// import { strategyDemo } from "./strategy/strategyDemo";
+// strategyDemo();
 
 // import { stateDemo } from "./state/state-demo";
 // stateDemo();
