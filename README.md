@@ -1,4 +1,5 @@
-# TypeScript Design Patterns
+# TypeScript Design Patterns (Archived)
+Moved to https://github.com/tanbt/typescript-playaround
 Resource: <https://www.udemy.com/design-patterns-in-typescript/
 
 ## Installation
